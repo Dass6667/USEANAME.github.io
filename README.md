@@ -1,6 +1,6 @@
 
 
-[Uploading 新建文本文档.txt…]()<!doctype html public "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!doctype html public "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta content="IE=11.0000" http-equiv="X-UA-Compatible">
@@ -140,7 +140,7 @@
                 foot.draw();
                 tree.snapshot("p2", 500, 0, 610, 680);
 
-                canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+                canvas.parent().css("background", "url(/Dass6667/USEANAME.github.io/edit/main/" + tree.toDataURL('image/png') + ")");
                 canvas.css("background", "#ffe");
                 $await(Jscex.Async.sleep(300));
                 canvas.css("background", "none");
